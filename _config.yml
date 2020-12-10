@@ -6,7 +6,7 @@ author: Leo
 email: lxh1030402003@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lxh21k.github.io" # the base hostname & protocol for your site
-twitter_username: YourTwitter
+twitter_username: Robot_Le0
 github_username:  lxh21k
 
 disqus_shortname: YourDisqusShortname
@@ -29,3 +29,14 @@ plugins:
 
 # Google Analytics
 # google_analytics: UA-XXXXXXXX-X
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
