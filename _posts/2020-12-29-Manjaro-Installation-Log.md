@@ -4,6 +4,7 @@ date: 2020-12-29 12:19
 ---
 
 # Manjaro Installation Log
+![Manjaro](../../assets/manjaro.png)
 
 Ubuntu 在上周更新系统的时候崩掉了，索性直接把硬盘里的 Ubuntu 清掉了。之前在系统里面盲目配置了一堆乱七八糟的东西导致自己有些难以掌控。
 
@@ -111,6 +112,15 @@ sudo pacman -Sy archlinuxcn-keyring (using '-Sy' to download database file for '
 ```
 
 ### Clash
+#### 使用 pacman 安装
+发现 pacman 的 community 和 archlinuxcn 直接就有打包好的 clash，相比于从 GitHub 下载也便于更新。
+![clash in pacman](../../assets/clash-pacman.png)
+
+```bash
+sudo pacman -S clash-premium-bin
+```
+
+#### 从 GitHub 直接下载
 
 从 [GitHub](https://github.com/Dreamacro/clash) 下载适用于系统的 clash（分普通版本和 premium 版本，有些机场的配置文件需要使用 premium 版本），为了方便启动将其重命名为 clash，并赋予权限：
 ``` shell
