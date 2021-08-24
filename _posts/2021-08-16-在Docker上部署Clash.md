@@ -80,7 +80,7 @@ Docker的一些基本命令：
 - `sudo docker images` 查看所有下载的镜像
 - `sudo docker ps` 查看当前运行的所有容器
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/99752638-eed8-4cb6-99f4-7df9d5dd565a/Untitled.png](https://www.notion.so/Docker-clash-492887f7a5924757b887857b38a7716f#50b2bdcf722a46ee8da743af0ce2ae82)
+![NcsgbfhdErnqa5t](https://i.loli.net/2021/08/24/NcsgbfhdErnqa5t.jpg)
 
 ### 3. 更新 `config.yaml`
 

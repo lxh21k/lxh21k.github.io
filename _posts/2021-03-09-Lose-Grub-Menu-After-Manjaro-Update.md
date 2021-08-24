@@ -1,6 +1,6 @@
 ---
 title: Manjaro 更新后丢失 grub 菜单
-data: 2021-03-09 15:30
+date: 2021-03-09 15:30
 ---
 
 今天更新了 Manjaro 后发现，开机时直接进入了 Manjaro 而没有显示用来启动 Windows 和 Manjaro 双系统的 grub 菜单。遍查了网上关于 grub 更新后丢失启动项的帖子后，最后居然在 [Manjaro Linux Forum](https://forum.manjaro.org/) 找到了问题所在（多看更新日志和官方社区！）。
